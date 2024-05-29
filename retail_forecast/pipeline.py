@@ -28,4 +28,4 @@ def launch_prediction_pipeline(train_data_path, test_data_path, training=True, e
     return predictions
 
 if __name__ == '__main__':
-    launch_prediction_pipeline('data/train.csv', 'data/test.csv', training=False)
+    launch_prediction_pipeline('data/train.csv', 'data/test.csv', training=True, evaluation=False) # Change evaluation to True to evaluate the model with a test.csv file that contains the "turnover" column
