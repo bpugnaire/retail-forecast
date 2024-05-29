@@ -1,7 +1,6 @@
 from dash import Dash, html, dcc, callback, Output, Input
 import plotly.express as px
 from retail_forecast.predict import load_model
-from retail_forecast.preprocessing import preprocessing
 
 # df = preprocessing('data/train.csv')
 

@@ -1,5 +1,3 @@
-import pandas as pd
-import numpy as np
 from prophet import Prophet
 from prophet.serialize import model_to_json
 import logging
