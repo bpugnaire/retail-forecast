@@ -7,12 +7,12 @@ df = pd.read_csv('https://raw.githubusercontent.com/plotly/datasets/master/gapmi
 
 prediction = predict()
 
-def generate_plot(department, bu):
-    prediction
-    fig1 = m.plot(forecast)
-    y = valid_dict[k]
-    y.plot(x='ds', y='y', ax=fig1.gca(), color='red')
-    return fig1
+# def generate_plot(department, bu):
+#     prediction
+#     fig1 = m.plot(forecast)
+#     y = valid_dict[k]
+#     y.plot(x='ds', y='y', ax=fig1.gca(), color='red')
+#     return fig1
 
 app = Dash()
 
